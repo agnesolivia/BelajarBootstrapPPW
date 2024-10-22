@@ -1,0 +1,45 @@
+.flex-container{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    grid-template-columns: max-content;
+    border: 5px,solid;
+    border-radius: 20px;
+    align-content: space-between;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+}
+.flex-item{
+    background-color: rgb(217, 127, 38);
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border-radius: 12px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.baris1{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.baris2{
+    display: block;
+    justify-content: space-between;
+    margin-bottom: 45px; 
+}
+.baris3{
+    display: block;
+    margin-bottom: 0px;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
